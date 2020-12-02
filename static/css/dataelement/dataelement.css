@@ -1,0 +1,85 @@
+body {
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+}
+.connect_data{
+  overflow: hidden;
+  height: 100%;
+}
+.el-main {
+  background-color: #f8f8f9;
+  width: 100%;
+  height: 100%;
+
+}
+/*左边内容*/
+.categories_div {
+  margin-top: 6%;
+  height: 4%;
+  border-bottom: 1px solid rgb(217, 219, 221);
+}
+.categories_span {
+  margin-left: 6%;
+}
+.search-input-left {
+  width: 88%;
+  margin-left: 6%;
+  margin-top: 4%;
+  cursor: pointer;
+}
+.left_data_tree {
+  margin-top: 6%;
+  margin-left: 4%;
+  height: 80%;
+}
+.left_data_tree i{
+  display: block;
+  float: left;
+}
+/*右边内容*/
+.main_criteria {
+  background-color: #FFFFFF;
+  width: 97%;
+  height: 15%;
+  padding: 1%;
+}
+.right_main {
+  width: 100%;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #e8e0e0;
+}
+.right_main .data_table{
+  width: 97%;
+  margin-left: 1%;
+  overflow-y: auto;
+  margin-top: 1%;
+}
+.data_pagination div {
+  display: block;
+  float: right;
+}
+.data_pagination {
+  width: 97%;
+  margin-top: 1%;
+}
+.icon_data i:hover{
+  cursor: pointer;
+}
+/*面包屑*/
+.breadcrumb_tree {
+  height: 1%;
+  font-size: 16px;
+  padding-bottom: 1%;
+}
+.tree{
+  overflow-y: hidden;
+  overflow-x: scroll;
+  width:100%;
+  height: 500px;
+}
+.el-tree {
+  min-width: 90%;
+  display:inline-block !important;
+}

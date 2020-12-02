@@ -1,0 +1,269 @@
+
+.loading {
+  width: 100px;
+  height: 56px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  line-height: 56px;
+  color: #fff;
+  padding-left: 60px;
+  font-size: 15px;
+  background: rgba(0, 0, 0, 0) no-repeat 30px 50%;
+  opacity: 0.7;
+  z-index: 9999;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=70);
+}
+
+.taskClass {
+  background: rgba(0, 0, 0, 0.2);
+  height: 270px;
+  color: white;
+  cursor: pointer;
+}
+
+.childTaskClass {
+  background: rgba(0, 0, 0, 0.2);
+  height: 120px;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.taskText {
+  padding: 15px 20px 0px 20px;
+  font-weight: bold;
+}
+
+.childText {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.childTaskClass h4 {
+  margin-top: 20px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.childTaskClass span {
+  padding: 0px 0px 0px 20px;
+}
+
+.chartText {
+  padding: 15px 20px 0px 20px;
+  font-weight: bold;
+}
+
+.taskClass h3 {
+  font-size: 32px;
+  text-align: center;
+}
+
+.red {
+  color: #f65161;
+}
+
+.green {
+  color: #36c398;
+}
+
+.blue {
+  color: #2eaff1;
+}
+
+.white {
+  color: white;
+}
+
+.chartClass {
+  background: rgba(0, 0, 0, 0.2);
+  height: 270px;
+  color: white;
+}
+
+.echartClass {
+  height: 220px;
+}
+
+.swapClass {
+  margin: 25px auto 15px auto;
+  width: 180px;
+}
+
+.chart-icon {
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin-right: 20px;
+  overflow: hidden;
+  background: url(../../static/img/increment.png) no-repeat;
+}
+
+.chart-num {
+  font-size: 24px;
+  padding: 5px 0;
+}
+
+.total-icon {
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin-right: 20px;
+  overflow: hidden;
+  background: url(../../static/img/total.png) no-repeat;
+}
+
+.purple {
+  color: #5c6bc0;
+}
+
+.alarm-icon {
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin-left: 35px;
+  overflow: hidden;
+  cursor: pointer;
+  background: url(../../static/img/alarm.png) no-repeat;
+}
+
+.chart-remark {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.chart-num-lg {
+  font-size: 24px;
+  padding: 5px 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* 使表格背景透明 */
+.el-table th,
+.el-table tr,
+.el-table td {
+  background-color: transparent;
+  /* border: 0; */
+}
+
+/* 删除表格下横线 */
+.el-table::before {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 0px;
+}
+
+/* 表格表头字体颜色 */
+.el-table thead {
+  color: white;
+}
+
+/* 鼠标悬浮背景色 */
+.el-table tbody tr:hover>td {
+  background-color: transparent !important;
+}
+
+body {
+  overflow: hidden;
+  margin: 0px;
+}
+
+.powderblue {
+  color: powderblue;
+}
+
+.el-tabs--card>.el-tabs__header .el-tabs__nav {
+  border: 1px solid #E4E7ED;
+}
+
+/*内容*/
+.Bottom_warp {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+}
+
+.Content {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+/*----------*/
+.Content2 {
+  height: 100%;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+}
+
+/*中间内容*/
+.Content2_bottom {
+  height: 100%;
+  overflow: hidden;
+}
+
+.Box_warp {
+  /* height: 900px; */
+  min-height: 100%;
+  padding-bottom: 20px;
+}
+
+/*新闻中心*/
+.Page2_item_news_ul {
+  padding: 10px;
+  width: 100%;
+  height: 95%;
+  overflow: auto;
+  background-color: transparent;
+  color: white;
+}
+
+.odd-row {
+  color: #3cc764;
+}
+
+.even-row {
+  color: #a9c73c;
+}
+
+.el-table__header tr,
+.el-table__header th {
+  padding: 0;
+  height: 29px;
+}
+
+.el-table__body tr,
+.el-table__body td {
+  padding: 0;
+  height: 29px;
+}
+
+*::-webkit-scrollbar {
+  width: 4px;
+  height: 0px;
+  border: 0;
+  background: transparent;
+}
+
+*::-webkit-scrollbar-button {
+  display: none;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-corner {
+  background: transparent;
+}

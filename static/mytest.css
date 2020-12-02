@@ -1,0 +1,204 @@
+body {
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.el-row {
+  height: 100%;
+  width: 100%;
+}
+
+.Content_right {
+  margin-top: 40px;
+}
+
+.Content_right .el-row {
+  padding-left: 20px;
+}
+
+.el-col {
+  height: 100%;
+}
+
+.Box_warp {
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*内容*/
+.Bottom_warp {
+  height: 100%;
+  width: 100%;
+}
+
+/*左侧锚点导航*/
+.Content1_left {
+  height: 80%;
+  position: relative;
+  margin-top: 50%;
+}
+
+.Content1_left_ul {
+  height: 70%;
+  width: 80%;
+  padding: 4px 0;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  overflow: auto;
+  background: rgba(0, 0, 0, 0.27);
+  border-radius: 6px;
+}
+
+.Content1_left_ul>li {
+  height: 40px;
+  line-height: 40px;
+  color: #FFFFFF;
+  font-size: 16px;
+  margin: 2px auto;
+}
+
+.Content1_left_ul>li>a {
+  display: block;
+  padding: 0 12% 0 18%;
+  cursor: pointer;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  position: relative;
+}
+
+.Content1_left_ul>li>a>i {
+  vertical-align: middle;
+  float: right;
+  display: none;
+  font-size: 18px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.Content1_left_ul>li>a:hover {
+  background: rgba(0, 134, 179, 0.53);
+  border-radius: 4px;
+}
+
+.Content1_left_ul>li>a:hover>i {
+  display: block;
+}
+
+.Content1_left_ul_active {
+  background: transparent;
+  border-radius: 4px;
+  color: #FFFFFF;
+}
+
+.Content1_left_ul_active>a>i {
+  display: block !important;
+}
+/*右侧input*/
+.demo-input-suffix {
+  width: 50%;
+  height: 40px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.demo-input-suffix .dialog-input-text:hover {
+  cursor: pointer;
+}
+/*右侧内容*/
+.Content1_right {
+  position: relative;
+  padding-right: 30px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.Page1_row1 {
+  padding-top: 40px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.Page1_row1_name {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0px 20px;
+  line-height: 40px;
+  color: #FFFFFF;
+  font-size: 16px;
+  width: 100%;
+  background: rgba(0, 0, 0, .2);
+}
+
+.Page1_item {
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 10px;
+  line-height: 50px;
+}
+
+.Page1_item:HOVER {
+  background: #0077AA;
+  border: 0px solid rgba(255, 255, 255, .3);
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.Page1_item_style1_left {
+  float: left;
+  height: 100%;
+  width: 23%;
+  text-align: right;
+}
+
+.Page1_item_style1_left>.el-image {
+  vertical-align: top;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.Page1_item_style1_right {
+  height: 100%;
+  font-size: 16px;
+  text-align: left;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+#Page1_item_style1_content {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: left;
+  margin: 0 10px;
+  color: #FFFFFF;
+}
